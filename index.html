@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sales Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sales Dashboard</h1>
+    <button id="toggleTheme">Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <div class="filters">
+      <label for="category">FILTER BY CATEGORY:</label>
+      <select id="category">
+        <option value="all">All</option>
+      </select>
+      <input type="text" id="searchBox" placeholder="Search product..." />
+
+      <button id="exportButton">Export to Excel</button>
+    </div>
+
+    <div class="summary-cards">
+        <div class="card">
+            <h3>Total sales</h3>
+            <p>$<span id="totalSales"></span></p>
+        </div>
+        <div class="card">
+            <h3>Top Product</h3>
+            <p id="topProduct"></p>
+        </div>
+        <div class="card">
+            <h3>Top Region</h3>
+            <p id="topRegion"></p>
+        </div>      
+      </div>
+      
+    <div class="table-container">
+      <table id="salesTable">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Region</th>
+            <th>Sales</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="charts">
+      <canvas id="barChart" width="1000" height="300"></canvas>
+      <canvas id="lineChart" width="1000" height="300"></canvas>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+</body>
+</html>

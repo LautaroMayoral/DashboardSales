@@ -1,0 +1,23 @@
+[
+    { "product": "Laptop", "category": "Electronics", "region": "North", "sales": 1200 },
+    { "product": "Phone", "category": "Electronics", "region": "South", "sales": 800 },
+    { "product": "Shoes", "category": "Apparel", "region": "West", "sales": 300 },
+    { "product": "Hat", "category": "Apparel", "region": "East", "sales": 200 },
+    { "product": "TV", "category": "Electronics", "region": "North", "sales": 900 },
+    { "product": "T-shirt", "category": "Apparel", "region": "South", "sales": 250 },
+    { "product": "Tablet", "category": "Electronics", "region": "West", "sales": 600 },
+    { "product": "Jacket", "category": "Apparel", "region": "East", "sales": 400 },
+    { "product": "Headphones", "category": "Electronics", "region": "North", "sales": 500 },
+    { "product": "Socks", "category": "Apparel", "region": "South", "sales": 150 },
+    { "product": "Monitor", "category": "Electronics", "region": "West", "sales": 700 },
+    { "product": "Belt", "category": "Apparel", "region": "East", "sales": 100 },
+    { "product": "Camera", "category": "Electronics", "region": "North", "sales": 1100 },
+    { "product": "Shorts", "category": "Apparel", "region": "South", "sales": 350 },
+    { "product": "Smartwatch", "category": "Electronics", "region": "West", "sales": 400 },
+    { "product": "Scarf", "category": "Apparel", "region": "East", "sales": 250 },
+    { "product": "Speaker", "category": "Electronics", "region": "North", "sales": 600 },
+    { "product": "Gloves", "category": "Apparel", "region": "South", "sales": 200 },
+    { "product": "Router", "category": "Electronics", "region": "West", "sales": 300 },
+    { "product": "Sweater", "category": "Apparel", "region": "East", "sales": 450 }
+  ]
+  
